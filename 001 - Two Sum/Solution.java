@@ -45,5 +45,7 @@ class Solution {
     }
 }
 
-/* This solution use time = 0(n).
-
+/*
+Time complexity: O(n)
+Space complexity: O(n)
+*/
