@@ -1,19 +1,29 @@
 /*
 LeetCode 1 - Two Sum
 
-Consegna:
-Dato un array di interi nums e un intero target, restituisci gli indici dei due numeri
-tali che la loro somma sia uguale a target.
+Given an integer array nums and an integer target, return the indices of two
+different elements whose sum is target.
 
-Puoi assumere che esista esattamente una soluzione e non puoi usare due volte
-lo stesso elemento.
+There is exactly one valid answer, and the same element cannot be used twice.
+The answer may be returned in any order.
 
-Esempi:
-nums = [2, 7, 11, 15], target = 9
-output = [0, 1]
+Example 1:
+Input: nums = [2, 7, 11, 15], target = 9
+Output: [0, 1]
 
-nums = [3, 2, 4], target = 6
-output = [1, 2]
+Example 2:
+Input: nums = [3, 2, 4], target = 6
+Output: [1, 2]
+
+Example 3:
+Input: nums = [3, 3], target = 6
+Output: [0, 1]
+
+Constraints:
+- 2 <= nums.length <= 10^4
+- -10^9 <= nums[i] <= 10^9
+- -10^9 <= target <= 10^9
+- Only one valid answer exists.
 */
 
 class Solution {
@@ -35,4 +45,5 @@ class Solution {
     }
 }
 
+/* This solution use time = 0(n).
 
