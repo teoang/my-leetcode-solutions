@@ -39,3 +39,8 @@ class Solution {
         return originale == invertito;
     }
 }
+
+/*
+Time complexity: O(n)
+Space complexity: O(1)
+*/
